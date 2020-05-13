@@ -1,0 +1,80 @@
+*{
+    font-family: 'Balsamiq Sans', cursive;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 45px 0 45px;
+    background-color: #24292e;
+}
+
+nav div a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo-nav{
+    width: 80px;
+}
+
+#hero-home{
+    background-image: url("../img/hero.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 30px;
+    color: #fff;
+}
+
+#events-container{
+    width: 100vw;
+    height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.contenedor-div{
+    width: 30%;
+    height: 30%;
+    background-color: red;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+    
+}
