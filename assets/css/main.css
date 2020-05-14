@@ -85,6 +85,11 @@ nav div a {
     .subtitle{ 
         display: none;
     }
+
+    .contenedor-div{
+    width: 100%;
+      
+}
 }
 
 
