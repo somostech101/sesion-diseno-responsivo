@@ -79,6 +79,12 @@ nav div a {
         width: 40px;
     }
 
+    .title{
+        font-size: 30px;    
+    }
+    .subtitle{ 
+        display: none;
+    }
 }
 
 
